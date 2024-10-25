@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-image: url(./image/main.jpg);
+    background-size: cover;
+    height: 400px;
+    
+}
+.h-div{
+    background-color: rgba(0, 0, 0, 0.473);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.842);
+    width: 97%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 2px; */
+    border-radius: 5px;
+    z-index: 10;
+    position: sticky;
+    top: 0px;
+}
+.logo {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+.logo > span {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: 0.75px;
+    color: #e96c29;
+    cursor: pointer;
+}
+
+.nav-loc ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.nav-loc ul a {
+    margin-right: 2.5rem;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.65px;
+    color:#002125;
+}
+.link-nav {
+    text-decoration: none;
+}
+.buy {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy-bt {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 40px;
+    letter-spacing: 0.65px;
+    color: #e96c29;
+}
+.caption {
+    background-color: rgba(142, 148, 153, 0.85);
+    width: 100%;
+    text-align: center;
+}
+.caption p{
+    font-size: 30px;
+    letter-spacing: 0.2rem;
+    color: #002125;
+}
+.partner-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 175px;
+    padding: 0px 40px;
+}
+.p-img {
+    height: 175px;
+    width: 175px;
+
+}
+.detail {
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+.detail-pd{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    width: 45%;
+}
+.pd-h1 {
+    font-size: 2rem;
+    letter-spacing: 0.8px;
+    line-height: 40px;
+}
+.pd-h2 {
+    line-break: auto;
+    font-size: 1rem;
+    line-height: 22px;
+    text-align: start;
+    letter-spacing: 0.5px;
+    opacity: 0.85;
+}
+.btn{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.74);
+    background-color: white;
+}
+.btn:hover{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    box-shadow: 3px 2px 5px rgba(43, 43, 43, 0.74);
+}
+.pd-image{
+    background-image: url(./image/patrick-perkins-3wylDrjxH-E-unsplash.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+}
+.info-p {
+    display: flex;
+    flex-direction: column;
+}
+.ip-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0 25px 0;
+}
+.ip-1 h4 {
+    font-size: 50px;
+    line-height: 76px;
+    opacity: 0.88;
+}
+.ip-1 p {
+    line-height: 17px;
+    opacity: 0.80;
+    text-align: center;
+    padding: 0 300px;
+}
+.info-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60PX;
+}
+.card-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-img {
+    border-radius: 5px;
+    height: 275px;
+}
+.card-1 P{
+    font-size: 20PX;
+    font-weight: 700;
+}
+.cardprice {
+    opacity: 0.85;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    line-height: 18px;
+}
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 9px 12px 28px;
+    padding: 0 60px;
+}
+.fa-solid {
+    margin: 0 15px;
+    font-size: 32px;
+    opacity: 0.70;
+}
+.fa-solid:hover {
+    opacity: 1;
+}
+
+.mid-2 {
+    background-image: url(./table/nathan-fertig-FBXuXp57eM0-unsplash.jpg);
+    background-size: cover;
+    height: 300px;
+    margin: 20px 0;
+}
+.mid-2 div {
+    background-color: #00000075;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 0 600px 0 60px;
+}
+.mid-main1 {
+    color: white;
+    font-size: 45px;
+    letter-spacing: 1.2px;
+    padding-bottom: 20px;
+}
+.mid-main2 {
+    color: rgba(255, 255, 255, 0.863);
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    padding-bottom: 20px;
+}
+.mid-btn {
+    background-color: #23221fed;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.mid-btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: 3px 2px 5px rgba(240, 155, 98, 0.918);
+}
+
+.nav-sofa {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 60px 5px 60px;
+}
+.sofa-img {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0 30px;
+    margin: 15px;
+
+}
+.sofa-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.sofa-h1 {
+    padding-bottom: 121px;
+    padding-right: 15px;
+}
+
+.s-style {
+    height: 250px;
+    width: 300px;
+}
+.sofap1 {
+    font-size: 50px;
+    line-height: 50px;
+    padding-bottom: 20px;
+    opacity: 0.95;
+}
+.sofap2 {
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+    opacity: 0.85;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+.sofabtn {
+    background-color: rgb(41, 41, 41);
+    color: white;
+    width: 95px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.sofabtn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: 3px 2px 5px rgba(43, 43, 43, 0.74);
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    margin: 0 60px;
+}
+.blog > p {
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+.blog-review {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.b-img {
+    height: 300px;
+    width: 380px;
+}
+.blogc1{
+    padding: 0 10px;
+    text-align: center;
+}
+.blog-para {
+    opacity: 0.65;
+    line-height: 1.3rem;
+    cursor: pointer;
+}
+.blog-para:hover{
+    opacity: 1;
+}

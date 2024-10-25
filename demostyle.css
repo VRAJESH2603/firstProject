@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    height: 400px;
+    background-image: url(./image/main.jpg);
+    background-size: cover;
+}
+.navbar {
+    width: 98%;
+    height: 12%;
+    background-color: rgb(192, 167, 167);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 10px;
+    margin: 0px 10px;
+    z-index: 10;
+}
