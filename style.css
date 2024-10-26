@@ -338,3 +338,76 @@
 .blog-para:hover{
     opacity: 1;
 }
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    margin-top: 25px;
+    text-align: center; 
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: flex-start; 
+    flex-wrap: wrap; 
+    gap: 40px; 
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.footer-section {
+    max-width: 200px;
+}
+
+.footer-section h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #e96c29; 
+}
+
+.footer-section p {
+    line-height: 1.5;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 10px 0;
+}
+
+.footer-section a {
+    color: #e0e0e0; 
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+    color: #e96c29; 
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 24px;
+}
+
+.footer-bottom {
+    background-color: #222;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+}
