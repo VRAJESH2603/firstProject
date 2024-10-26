@@ -2,10 +2,6 @@
     margin: 0;
     padding: 0;
 }
-body {
-    font-size: 16px;
-    padding: 20px;
-}
 .header {
     background-image: url(./image/main.jpg);
     background-size: cover;
@@ -341,19 +337,4 @@ body {
 }
 .blog-para:hover{
     opacity: 1;
-}
-/* Styles for devices with a max width of 768px (tablets and phones) */
-@media (max-width: 768px) {
-    body {
-        font-size: 14px;
-        padding: 10px;
-    }
-}
-
-/* Styles for devices with a max width of 480px (phones) */
-@media (max-width: 480px) {
-    body {
-        font-size: 12px;
-        padding: 5px;
-    }
 }
